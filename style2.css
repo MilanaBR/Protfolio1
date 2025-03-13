@@ -1,0 +1,83 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.main{
+    display: flex;
+    gap:1rem;
+    height:100vh;
+    
+}
+.left-panel{
+    width:20%;
+    height: 100%;
+    background-color:black;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+    color: white;
+}
+.right-panel{
+    width: 80%;
+    height: 100%;
+    overflow-y: scroll;
+    background-color:pink;
+    padding:1rem;
+}
+
+.profile-image{
+    height: 7rem;
+    width: 7rem;
+    object-fit: cover;
+    border-radius: 100%;
+
+}
+.icons{
+    list-style-type: none;
+    display: flex;
+    gap: 2px;;
+    align-items: center;
+}
+.icons img{
+ height: 3rem;
+ width: 3rem;
+}
+.name{
+    color: white;
+}
+.place{
+    color: white;
+}
+h3{
+
+color:green;
+font-size:32px;
+}
+p{
+    font-size:20px;
+}
+h4{
+    color: green;
+    font-size: 25px;
+}
+.app{
+    gap: 200px;
+    display: flex;
+    list-style-type:none;
+}
+.app img{
+    height: 3rem;
+    width: 3rem;
+}
+.pro{
+    font-size: 20px;
+}
+.con{
+    list-style-type: none;
+    font-size: 20px;
+}
+.hob{
+    font-size: 20px;
+}
